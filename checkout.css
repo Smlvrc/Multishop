@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.fourth-group{
+    background-color: #f4f4f4;
+}
+.row-main{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-right: 15px;
+margin-left: 15px;
+background-color: #f4f4f4;
+}
+.row-main-left{
+   width: 65%;
+   margin-right: 20px;
+}
+
+.row-main-right{
+   width: 33%;
+   padding-right: 10px;
+
+}
+.row-main .billig{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.row-main  h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.row-main-right .border-bottom .mb-3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.row-main-right .border-bottom .justify-content-between{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
+.row-main-right .bg-light .pt-3 h6{
+color: #3d464d;
+margin-bottom: 0.5rem;
+font-size: 16px;
+}
+.row-main-right .bg-light {
+    margin-bottom: 48px;
+}
+.row-main-right .bg-light .mt-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.row-main-right .bg-light .mt-2 h5{
+    font-size: 18px;
+    color: #3d464d;
+}
+.row-main-left .row-billing{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 30px;
+}
+.row-billing .bil-col{
+    height: max-content;
+    margin-bottom: 1rem;
+    padding-right: 27px;
+    padding-left: 15px;
+    width: 342px;
+   
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-left: 0px;
+    display: flex;
+}
+.row-billing .bil-col label{
+    margin-bottom: 0.5rem;
+}
+.row-billing .bil-col input{
+    height: 38px;
+    width: 100%;
+}
+.row-billing select{
+    height: 38px;
+    width: 100%;
+}
+.row-billing  input{
+    padding: 10px;
+    outline: 0.5px;
+    outline-color: rgb(165, 165, 255);
+}
+.row-billing input:focus{
+    outline-color:0.5px solid rgb(240, 212, 53);
+}
+.bil-col2{
+    width: 100%;
+    margin: 10px auto;
+}
+/* custom checkbox */
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+   
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: 1px solid #b4b4b4;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  
+  .container input:checked ~ .checkmark {
+    background-color: #ffc107;
+   border: #ffc107;
+
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  
+  /* Style the checkmark/indicator */
+
+  .container .checkmark:after {
+    left: 6px;
+    top: 4px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+ /*  */
+  .row-main .hidden-bil{
+    display: none;
+  }
+  .row-main .hidden-bil.active{
+    display: flex;
+  }
+
+  /* right side */
+  .col-lg-4 .bg-light{
+    width: 100%;
+    height: 359px;
+    padding: 30px;
+    background-color: white;
+  }
+  .row-main-left .mb-second{
+    width: 100%;
+    height: 200px;
+  }
+  .mb-second .form-group{
+    margin-bottom: 1.6rem;
+  }
+  .mb-second h5 .pr-3{
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .row-main-right .another-bg{
+    height: 270px;
+  }
+  .mb-second button{
+    width: 100%;
+    height: 58px;
+    background-color: #ffc107;
+    color:#3d464d;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .row-main-left .form-control{
+    border: 1px solid #ced4da;
+  }
+  .row-main-left select{
+    border: 1px solid #ced4da;
+  }
+  .row-billing .bil-col label {
+    color:#6c757d ;
+  }

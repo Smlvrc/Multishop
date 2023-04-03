@@ -1,0 +1,100 @@
+*{
+    font-family: Roboto;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.contact-main{
+    width: 100%;
+    max-width: 1250px;
+margin: auto;
+
+}
+.contact-main h3{
+    font-size: 34px;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+.contact-inner{
+    display: flex;
+    height: 596px;
+}
+.contact-form{
+    width: 730px;
+    padding: 30px;
+    height: 493px;
+    background-color: white;
+    margin-right: 25px;
+}
+.contact-form .control-group{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 20px;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 206px;
+}
+.contact-form .control-group input{
+    width: 100%;
+}
+.contact-form form{
+    height: 400px;
+}
+.contact-form .control-group input{
+    height: 100%;
+}
+.contact-form .control-group input:focus{
+    outline: none !important;
+    border-color:#ffd333;
+}
+.contact-form .control-group textarea:focus{
+    outline: none !important;
+    border-color:#ffd333;
+}
+
+.divhelp{
+    height: 100px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+padding: 0.37rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: white;
+border: 1px solid #aeb2b6;
+}
+.sendmsj{
+    width: 154px;
+    height: 42px;
+    color: #3e4349;
+    background-color:#ffd333 ;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sendmsj:hover{
+    background-color: #ebc231;
+}
+.contact-inner .map{
+    width: 497px;
+    height: 317px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.map-down{
+    width:497px;
+    height: 156px;
+padding: 30px;
+background-color: white;
+}
+.map-down p{
+    margin-bottom: 15px;
+    color: #495057;
+}

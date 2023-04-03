@@ -1,0 +1,146 @@
+*{
+text-decoration: none;
+font-family: Roboto;
+box-sizing: border-box;
+}
+.commonrow{
+    padding-bottom: 80px;
+    padding: 20px;
+}
+.commonrow .row-right{
+    width: 100%;
+    padding-bottom: 30px;
+   height: 100%;
+}
+.row-left{
+    margin-right: 30px;
+}
+.row-right .row-button-up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-button-up .left-buttons button{
+    width: 32px;
+    height: 31px;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.row-button-up .left-buttons button i{
+    color: black;
+}
+.row-button-up .right-buttons{
+    display: flex;
+}
+.row-button-up  .right-buttons button{
+width: 80px;
+height: 31px;
+background-color: white;
+border: none;
+margin-left: 10px;
+font-size: 14px;
+}
+.right-buttons .sorting-down{
+    width: 160px;
+    height: 114px;
+}
+.sorting-area{
+    position: relative;
+}
+.sorting-area .sorting-down{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    display: none;
+}
+.showing-area{
+    position: relative;
+}
+.showing-area .showing-down{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 160px;
+    height: 114px;
+    display: none;
+}
+.showing-down p{
+    margin-bottom: 10px;
+}
+/* toggle sorting */
+.sorting-down.active{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+border: 0.5px solid rgb(202, 201, 201);
+z-index: 1;
+}
+.sorting-down p{
+    margin-bottom: 10px;
+}
+/* toggle showing */
+.showing-down.active{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1;
+background-color: white;
+border: 0.5px solid rgb(202, 201, 201);
+}
+.row-right .featured-item{
+    width: 283px;
+    height: 370px;
+}
+
+.pagenation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pagenation ul{
+    display: flex;
+}
+.pagenation ul li{
+    height: 38px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid rgb(216, 213, 213);
+}
+.pagenation ul li a{
+    color: #ffd333;
+    font-size: 16px;
+    font-weight:550 !important;
+}
+.pagenation ul .prev{
+    width: 87.56px;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+.pagenation ul .prev a{
+    color: rgb(61, 61, 61);
+}
+.pagenation ul .num{
+    width: 34.98px;
+    border-left: none;
+}
+.pagenation ul .next{
+    width: 59px;
+    border-left: none;
+}
+.pagenation .active1{
+    background-color: #ffd333;
+    border: none;
+}
+.pagenation .active1 a{
+color: white;}
+.pagenation ul .hv:hover{
+    background-color: rgb(212, 212, 212);
+}
+.categoires-inner.active {
+z-index: 2;
+}

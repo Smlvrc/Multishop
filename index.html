@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutlishop</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&family=Poppins:wght@200;300&family=Roboto&family=Rubik:wght@800;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/customcheckbox.css">
+
+<body>
+    <header>
+        <div class="containerfirst">
+            <div class="cont1">
+                <div class="links-left">
+                    <ul>
+                        <li><a href="./about.html">About</a> </li>
+                        <li><a href="./contact.html">Contact</a> </li>
+                        <li><a href="">Help</a> </li>
+                        <li><a href="">FAQs</a> </li>
+                    </ul>
+                </div>
+                <div class="links-right">
+                    <div class="btn-groups">
+                        <div class="btn-item item1">
+                            <button class="btn1">My Account <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="selectsign">
+                                <div class="sign in">Sign in</div>
+                                <div class="sign up">Sign up</div>
+                            </div>
+                        </div>
+                        <div class="btn-item item2">
+                            <button class="usd-btn">USD <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="money">
+                                <div class="eur">EUR</div>
+                                <div class="gbp">GBP</div>
+                                <div class="cad">CAD</div>
+                            </div>
+                        </div>
+                        <div class="btn-item item3">
+                            <button class="usd-btn3">En <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="lang">
+                                <div class="Fr">FR</div>
+                                <div class="Ar">AR</div>
+                                <div class="Ru">RU</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="busket ">
+                        <div class="busket-gr">
+                            <i class="fa-solid fa-heart"></i>
+                            <div class="zero">
+                                0
+                            </div>
+                        </div>
+                        <div class="busket-gr">
+                            <i class="fa-solid fa-bucket"></i>
+                            <div class="zero">
+                                0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containersecond">
+            <div class="mutlishop">
+                <a href="">
+                    <h2>MULTI</h2>
+                    <h2>SHOP</h2>
+                </a>
+            </div>
+            <div class="search-group">
+                <input type="text" name="" id="" placeholder="Search for products">
+                <div class="search-i"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+
+            <div class="number">
+                <p>Customer Service</p>
+                <p>+012 345 6789</p>
+            </div>
+        </div>
+        <div class="containerthird">
+            <!-- responsive -->
+            <div class="unvisible">
+                <a href="" class="mutlishop">
+                    <h2>MULTI</h2>
+                    <h2>SHOP</h2>
+                </a>
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            </div>
+
+            <div class="nav-container">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Shop details</a></li>
+                    <li><a href="" class="page">Pages <i class="fa fa-angle-down "></i></a></li>
+                    <div class="pageinner">
+                        <a href="./shoppingcart.html">Shopping card</a>
+                        <a href="./checkout.html">Checkout</a>
+                    </div>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <!-- responsive -->
+
+            <div class="container-group">
+                <div class="categories">
+                    <button class="catg">
+                        <i class="fa-solid fa-bars"></i>
+                        Categories
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="categoires-inner">
+                        <div class="dresses">
+                            <a href="" class="dresinner1">Dresses <i class="fa fa-angle-right float-right mt-1"></i>
+                            </a>
+                            <div class="dresses-drop">
+                                <a href="">Men's Dresses</a>
+                                <a href="">Women's Dresses</a>
+                                <a href="">Baby's Dresses</a>
+                            </div>
+                        </div>
+                        <a href="">Shirts</a>
+
+                        <a href="">Jeans</a>
+
+                        <a href="">Swimwear</a>
+
+                        <a href="">Sleepwear</a>
+                        <a href="">Sportswear</a>
+                        <a href="">Jumpsuits</a>
+                        <a href="">Blazers</a>
+                        <a href="">Jackets</a>
+                        <a href="">Shoes</a>
+                    </div>
+
+                </div>
+                <div class="middle-category">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./shopdetail.html">Shop details</a></li>
+                        <li class="pageside">
+                            <a href="">Pages <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="pages-inner">
+                                <a href="./shoppingcart.html">Shopping card</a>
+                                <a href="./checkout.html">Checkout</a>
+                            </div>
+                        </li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="busket2 ">
+                    <div class="busket-gr">
+                        <a href=""> <i class="fa-solid fa-heart"></i> </a>
+                        <div class="zero">
+                            0
+                        </div>
+                    </div>
+                    <div class="busket-gr">
+                        <a href=""><i class="fa-solid fa-bucket"></i></a>
+                        <div class="zero">
+                            0
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="containerfifth">
+        <div class="fifth-row">
+
+            <div class="fifth-left">
+                <div class="fashion-slider">
+                    <div class="slider-item">
+                        <img class="slider-img" src="assets/carousel-1.jpg" alt="">
+                        <div class="slider-content">
+                            <h1 class="animate__animated " data-animation-in="animate__fadeInDown" data-delay-in="2">
+                                Women Fashion</h1>
+                            <p>Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr
+                                ipsum diam</p>
+                            <div class="slider-btn">Shop Now</div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/carousel-2.jpg" alt="">
+                        <div class="slider-content">
+                            <h1>Women Fashion</h1>
+                            <p>Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr
+                                ipsum diam</p>
+                            <div class="slider-btn">Shop Now</div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/carousel-3.jpg" alt="">
+                        <div class="slider-content">
+                            <h1>Women Fashion</h1>
+                            <p>Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr
+                                ipsum diam</p>
+                            <div class="slider-btn">Shop Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fifth-right">
+                <div class="fifth-right-up">
+                    <div class="image-container-scale">
+                        <img class="rightupimg" src="./assets/offer-1.jpg" alt="Resim 1">
+                        <div class="overlay-scale">
+                            <p>Save 20%</p>
+                            <h3>Special Offer</h3>
+                            <button class="btn-scale">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="fifth-right-down">
+                    <div class="image-container-scale">
+                        <img class="rightupimg" src="./assets/offer-2.jpg" alt="Resim 1">
+                        <div class="overlay-scale">
+                            <p>Save 20%</p>
+                            <h3>Special Offer</h3>
+                            <button class="btn-scale">Shop Now</button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- quality shipping -->
+        <div class="policy">
+            <ul class="policy-group">
+                <li>
+                    <i class=" fa fa-check text-primary m-0 mr-3 "> </i>
+                    <h5>Quality Product</h5>
+                </li>
+                <li>
+                    <i class=" fa fa-shipping-fast text-primary m-0 mr-2 "> </i>
+                    <h5>Free Shipping</h5>
+                </li>
+                <li>
+                    <i class=" fas fa-exchange-alt text-primary m-0 mr-3 "> </i>
+                    <h5>14-Day Return</h5>
+                </li>
+                <li>
+                    <i class=" fa fa-phone-volume text-primary m-0 mr-3"> </i>
+                    <h5>24/7 Support</h5>
+                </li>
+            </ul>
+        </div>
+        <!--Categories section-->
+        <div class="categorysect">
+            <h2 class="categories2"> CATEGORIES <span>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - -
+                    - - - - - - - - - - - - - - </span> </h2>
+            <div class="category-group">
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-1.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-2.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-3.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-4.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-4.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-3.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-2.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-1.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-2.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-1.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-3.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+                <div class="catg-group-item">
+                    <div class="catg-group-item-img"> <img src="./assets/cat-4.jpg" alt=""> </div>
+                    <div class="catg-group-text">
+                        <h5>Category Name</h5>
+                        <p>100 Products</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="featured">
+            <h2>FEATURED PRODUCTS <span></span> </h2>
+            <div class="featured-group">
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-1.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-2.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-3.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-4.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-5.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-6.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-7.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-8.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="save20">
+            <div class="save-left">
+                <div class="image-container-scale another-scale">
+                    <img class="rightupimg" src="./assets/offer-1.jpg" alt="Resim 1">
+                    <div class="overlay-scale">
+                        <p>Save 20%</p>
+                        <h3>Special Offer</h3>
+                        <button class="btn-scale">Shop Now</button>
+                    </div>
+                </div>
+                <div class="image-container-scale another-scale">
+                    <img class="rightupimg" src="./assets/offer-1.jpg" alt="Resim 1">
+                    <div class="overlay-scale">
+                        <p>Save 20%</p>
+                        <h3>Special Offer</h3>
+                        <button class="btn-scale">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured">
+            <h2>RECENT PRODUCTS <span></span> </h2>
+            <div class="featured-group">
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-1.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-2.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-3.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-4.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-5.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-6.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-7.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-img"> <img class="featured-img-child" src="./assets/product-8.jpg" alt="">
+                    </div>
+                    <div class="product-icons">
+                        <a href="" class="birincichild"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="" class="ikincichild"><i class="fa fa-heart"></i></a>
+                        <a href="" class="ucuncuchild"><i class="fa fa-sync-alt"></i></a>
+                        <a href="" class="dorduncuchild"><i class="fa fa-search"></i></a>
+
+                    </div>
+
+                    <p class="first-featured">Product Name Goes Here</p>
+                    <p class="second-featured">$123.00 <span>$123.00 </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="sponsor">
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-1.jpg" alt="">
+                </div>
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-2.jpg" alt="">
+                </div>
+           
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-3.jpg" alt="">
+                </div>
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-4.jpg" alt="">
+                </div>
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-5.jpg" alt="">
+                </div>
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-6.jpg" alt="">
+                </div>
+                <div class="sponsor-item sponsor-item-container sps-item1">
+                    <img src="./assets/vendor-1.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
+        <div class="row px-xl-5 pt-5">
+          <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+            <h5 class="text-secondary text-uppercase mb-4">Get In Touch</h5>
+            <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
+            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>mail@domain.com</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <div class="row row-umumi">
+              <div class="col-md-4 mb-5">
+                <h5 class="text-secondary text-uppercase mb-4">Quick Shop</h5>
+                <div class="d-flex flex-column justify-content-start"><a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Home</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Our Shop</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Checkout</a> <a class="text-secondary" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Contact Us</a></div>
+              </div>
+              <div class="col-md-4 mb-5">
+                <h5 class="text-secondary text-uppercase mb-4">My Account</h5>
+                <div class="d-flex flex-column justify-content-start"><a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Home</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Our Shop</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a> <a class="text-secondary mb-2" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Checkout</a> <a class="text-secondary" href="https://www.free-css.com/free-css-templates"><i class="fa fa-angle-right mr-2"></i>Contact Us</a></div>
+              </div>
+              <div class="col-md-4 mb-5 newsletterfirst">
+                <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
+                <p class="newsletter">Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                <form action="#" method="post">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your Email Address">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+                <h6 class="text-secondary text-uppercase mt-4 mb-3">Follow Us</h6>
+                <div class="d-flex flex-icons"><a class="btn btn-primary btn-square mr-2" href="https://www.free-css.com/free-css-templates"><i class="fab fa-twitter"></i></a> <a class="btn btn-primary btn-square mr-2" href="https://www.free-css.com/free-css-templates"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-primary btn-square mr-2" href="https://www.free-css.com/free-css-templates"><i class="fab fa-linkedin-in"></i></a> <a class="btn btn-primary btn-square" href="https://www.free-css.com/free-css-templates"><i class="fab fa-instagram"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row border-top mx-xl-5 py-4" style="border-color:rgba(256,256,256,.1) !important;">
+
+          <div class="col-md-6 px-xl-0">
+            <p class="mb-md-0 text-center text-md-left text-secondary">© <a class="text-primary" href="https://www.free-css.com/free-css-templates">Domain</a>. All Rights Reserved. Designed by <a class="text-primary" target="_blank" rel="nofollow noopener" href="//htmlcodex.com">HTML Codex</a></p>
+          </div>
+          <div class="col-md-6 px-xl-0 text-center text-md-right"><img class="img-fluid" src="assets/payments.png" alt="website template image"></div>
+       
+          <div id="back-to-top">
+            <button><i class="fa-solid fa-angles-up"></i></button>
+        </div>
+     </div>
+      </div>
+
+   
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/main.js"></script>
+        <script src="./assets/slider1.js"></script>
+        <script src="./assets/slider2.js"></script>
+
+</body>
+
+</html>
